@@ -1,5 +1,6 @@
 <template>
   <div>
+    <button>点我有惊喜</button>
     <router-link to="">测试</router-link>
     <router-view></router-view>
   </div>
@@ -11,6 +12,11 @@ export default {
 }
 </script>
 
-<style>
+<style lang="less">
+  div {
 
+    button {
+      background-color: cyan;
+    }
+  }
 </style>
