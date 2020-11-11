@@ -11,5 +11,7 @@ export default {
 </script>
 
 <style lang="less">
-  
+  .app-container {
+    height: 100%;
+  }
 </style>

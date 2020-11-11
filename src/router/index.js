@@ -1,5 +1,7 @@
 import Vue from 'vue'
 
+import '../assets/base.css'
+
 import VueRouter from 'vue-router'
 
 import login from '@/views/login'
